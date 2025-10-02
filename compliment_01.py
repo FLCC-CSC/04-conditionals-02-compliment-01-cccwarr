@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Caden Warren
+# DATE: 9/29/25
+# BRIEF DESCRIPTION:  give a complement only if yes
 
 
 
@@ -15,7 +15,11 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+comp = input("Would you like a compliment? ")
 
+if comp == "yes":
+    print("You have wonderful eyes.")
+print("Thank you for playing.")
 
 
 
